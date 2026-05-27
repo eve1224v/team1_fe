@@ -224,6 +224,14 @@
   overflow-y: auto;
 }
 
+.restaurant-list::-webkit-scrollbar {
+  display: none;
+}
+
+.restaurant-list {
+  scrollbar-width: none;
+}
+
 .no-result-container {
   display: flex;
   flex-direction: column;
