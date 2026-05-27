@@ -1,0 +1,27 @@
+.button {
+  width: 100%;
+  height: 56px;
+
+  border-radius: 16px;
+
+  font-size: 18px;
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #6e232f;
+
+  border: none;
+
+  color: white;
+}
+
+.secondary {
+  background-color: white;
+
+  border: 1px solid #6e232f;
+
+  color: #6e232f;
+}
