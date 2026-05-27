@@ -2,6 +2,8 @@
   width: 360px;
   height: 91px;
 
+  border: none;
+
   border-radius: 14px;
 
   background: #fff;
@@ -14,6 +16,15 @@
   padding: 12px;
 
   box-sizing: border-box;
+
+  cursor: pointer;
+}
+
+.restaurant-card:focus,
+.restaurant-card:active {
+  outline: none;
+
+  border: none;
 }
 
 .restaurant-image {
