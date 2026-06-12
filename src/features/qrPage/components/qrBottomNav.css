@@ -8,7 +8,7 @@
   max-width: 393px;
   height: 85px;
 
-  background-color: white;
+  background-color: #fff ;
 
   display: flex;
   justify-content: space-around;
@@ -58,7 +58,7 @@
   height: 23px;
 }
 
-.home-qr-button {
+.qr-button {
   position: absolute;
 
   top: -28px;
@@ -73,7 +73,7 @@
 
   border: 3px solid #6e232f;
 
-  background-color: white;
+  background-color: #6E232F;
 
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 

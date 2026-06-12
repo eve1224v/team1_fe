@@ -5,7 +5,7 @@ import AppRouter from "./router/AppRouter";
 function App() {
   return (
     <div className="phone-wrapper">
-      <AppRouter />
+         <AppRouter />
     </div>
   );
 }

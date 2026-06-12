@@ -1,8 +1,22 @@
-.qr-status-modal {
+.qr-modal-layer {
   position: absolute;
-  top: 70px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+
+  z-index: 20;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-bottom: 36px;
+}
+
+.qr-status-modal {
+  position: relative;
 
   width: 360px;
   height: 438px;
@@ -13,54 +27,50 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
-
-  z-index: 10;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
 }
 
-.qr-status-close {
+.qr-modal-close-button {
   position: absolute;
   top: 16px;
   right: 19px;
 
   border: none;
   background: none;
-  padding: 0;
 
+  color: #000;
   font-size: 32px;
-  font-weight: 300;
-  color: #b5b5b5;
+  font-weight: 200;
+  line-height: 1;
 
   cursor: pointer;
 }
 
-.qr-status-character {
-  width: 129px;
-  height: 129px;
+.qr-modal-character {
+  width: 104px;
+  height: 104px;
   object-fit: contain;
 
-  margin-top: 127px;
+  margin-bottom: 28px;
 }
 
-.qr-status-text-box {
-  margin-top: 48px;
+.qr-modal-title {
+  margin: 0;
+
+  color: #000000;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.2;
   text-align: center;
 }
 
-.qr-status-text-box h1 {
-  margin: 0;
+.qr-modal-description {
+  margin: 8px 0 0;
 
-  color: #000;
-  font-size: 36px;
+  color: #000000;
+  font-size: 12px;
   font-weight: 700;
-  line-height: 39px;
-}
-
-.qr-status-text-box p {
-  margin: 6px 0 0;
-
-  color: #000;
-  font-size: 16px;
-  font-weight: 700;
+  text-align: center;
 }

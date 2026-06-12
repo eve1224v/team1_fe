@@ -1,0 +1,33 @@
+.qrPage {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #b3b3b3;
+
+  display: flex;
+  justify-content: center;
+}
+
+.qrFrame {
+  position: relative;
+
+  width: 100%;
+  max-width: 393px;
+  min-height: 100vh;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  overflow: hidden;
+}
+
+.qrMain {
+  width: 100%;
+  min-height: calc(100vh - 100px - 76px);
+
+  padding: 100px 32px 96px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,10 +1,17 @@
-import "./partnershipCard.css"
+import "./partnershipCard.css";
 
-function PartnershipCard({ icon, title, onClick }) {
+function PartnershipCard({ icon, title, iconType, onClick }) {
   return (
     <button className="partnership-card" onClick={onClick}>
-      {icon && <img src={icon} alt="" />}
-      <span>{title}</span>
+      <div className="partnership-card-content">
+        <img
+          className={`partnership-card-icon ${iconType}`}
+          src={icon}
+          alt=""
+        />
+      </div>
+
+      <span className="partnership-card-title">{title}</span>
     </button>
   );
 }
