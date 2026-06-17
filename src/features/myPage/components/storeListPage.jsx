@@ -1,26 +1,24 @@
-import MainHeader from "./MainHeader";
-import BackButton from "./BackButton";
-import RestaurantList from "./RestaurantList";
-import BottomNav from "./BottomNav";
+import "./storeListPage.css";
 
-import "./StoreListPage.css";
+import RestaurantCard from "./restaurantCard";
 
-function StoreListPage({ title }) {
+function StoreListPage({ title, stores }) {
   return (
-    <div className="store-list-screen">
-      <MainHeader />
+    <main className="store-list-page">
+      <h1 className="store-list-title">{title}</h1>
 
-      <main className="store-list-content">
-        <div className="store-list-title-row">
-          <h1>{title}</h1>
-          <BackButton />
-        </div>
-
-        <RestaurantList />
-      </main>
-
-      <BottomNav />
-    </div>
+      <section className="store-list">
+        {stores.map((store) => (
+          <RestaurantCard
+            key={store.id}
+            image={store.image}
+            name={store.name}
+            category={store.category}
+            address={store.address}
+          />
+        ))}
+      </section>
+    </main>
   );
 }
 

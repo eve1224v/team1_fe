@@ -26,8 +26,10 @@ function MyPage() {
           </h1>
 
           <p>
-            광운대학교<br />
-            인문사회과학대학<br />
+            광운대학교
+            <br />
+            인문사회과학대학
+            <br />
             미디어커뮤니케이션학부 소속
           </p>
 
@@ -37,23 +39,25 @@ function MyPage() {
         <section className={styles.partnershipSection}>
           <h2>나의 제휴</h2>
 
-          <PartnershipCard
-            icon={collegeIcon}
-            title="단과대학 제휴"
-            onClick={() => navigate(ROUTES.COLLEGE)}
-          />
+          <div className={styles.cardList}>
+            <PartnershipCard
+              icons={[collegeIcon, departmentIcon]}
+              title="단과대학 제휴"
+              onClick={() => navigate(ROUTES.COLLEGE)}
+            />
 
-          <PartnershipCard
-            icon={departmentIcon}
-            title="학과(부) 제휴"
-            onClick={() => navigate(ROUTES.DEPARTMENT)}
-          />
+            <PartnershipCard
+              icons={[departmentIcon]}
+              title="학과(부) 제휴"
+              onClick={() => navigate(ROUTES.DEPARTMENT)}
+            />
 
-          <PartnershipCard
-            icon={favoriteIcon}
-            title="즐겨찾기"
-            onClick={() => navigate(ROUTES.FAVORITE)}
-          />
+            <PartnershipCard
+              icons={[favoriteIcon]}
+              title="즐겨찾기"
+              onClick={() => navigate(ROUTES.FAVORITE)}
+            />
+          </div>
         </section>
       </main>
 

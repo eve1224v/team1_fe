@@ -4,8 +4,8 @@ import { useNavigate } from "react-router-dom";
 
 import { ROUTES } from "../../../router/routes.constant";
 
-import homeIcon from "../../../assets/homeIcon.svg";
-import mypageIcon from "../../../assets/mypageIcon.svg";
+import homeIcon from "../../../assets/homeDefault.svg";
+import mypageIcon from "../../../assets/mypageIcon2.svg";
 import qrIcon from "../../../assets/qrIcon.svg";
 
 function BottomNav() {

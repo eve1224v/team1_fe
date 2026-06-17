@@ -1,10 +1,20 @@
-import "./partnershipCard.css"
+import "./partnershipCard.css";
 
-function PartnershipCard({ icon, title, onClick }) {
+function PartnershipCard({ icons, title, onClick }) {
   return (
     <button className="partnership-card" onClick={onClick}>
-      {icon && <img src={icon} alt="" />}
-      <span>{title}</span>
+      <div className="partnership-card-icons">
+        {icons.map((icon, index) => (
+          <img
+            key={index}
+            src={icon}
+            alt={title}
+            className="partnership-card-icon"
+          />
+        ))}
+      </div>
+
+      <span className="partnership-card-title">{title}</span>
     </button>
   );
 }
