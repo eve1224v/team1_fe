@@ -1,0 +1,21 @@
+.email-form,
+.password-form,
+.nickname-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.error-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  color: #c62828;
+  font-size: 13px;
+}
+
+.error-box img {
+  width: 16px;
+  height: 16px;
+}
