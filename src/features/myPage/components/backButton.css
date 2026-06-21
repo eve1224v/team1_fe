@@ -1,11 +1,11 @@
-.my-back-button {
+.back-button {
   position: absolute;
 
   top: 122px;
-  right: 14px;
+  right: 16px;
 
-  width: 28px;
-  height: 28px;
+  width: 32px;
+  height: 32px;
 
   border: none;
   background-color: transparent;
@@ -18,7 +18,7 @@
   z-index: 3000;
 }
 
-.my-back-button img {
+.backIcon {
   width: 100%;
   height: 100%;
 
