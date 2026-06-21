@@ -1,6 +1,10 @@
 .partnership-card {
   width: 100%;
   height: 127.385px;
+  border-radius: 14px;
+  background-color: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+
 
   background-color: #ffffff;
 
@@ -11,6 +15,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 11px;
+
+  cursor: pointer;
+  padding: 0;
+}
+
+.partnership-card:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.partnership-card-content {
+  position: relative;
+  width: 107px;
+  height: 16px;
 
   gap: 10.62px;
 
@@ -34,6 +52,68 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.partnership-card-icon {
+  position: absolute;
+  object-fit: contain;
+}
+
+.partnership-card-icon.college {
+  width: 78px;
+  height: 77px;
+  left: 16px;
+  top: 0;
+}
+
+
+.partnership-card-icon.department {
+  width: 67px;
+  height: 67px;
+  left: 22px;
+  top: 5px;
+}
+
+
+.partnership-card-icon.favorite {
+  width: 77px;
+  height: 77px;
+  left: 16px;
+  top: 0;
+}
+
+.partnership-card-title {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10.62px;
+}
+
+
+
+.cardContent {
+  position: relative;
+  width: 78px;
+  height: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.cardTitle {
+  color: #000;
+font-size: 24px;
+font-weight: 700;
+line-height: 16px; 
   gap: 2px;
 }
 

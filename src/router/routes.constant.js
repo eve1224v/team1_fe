@@ -11,6 +11,7 @@ export const ROUTES = Object.freeze({
   COLLEGE: "/mypage/college",
   DEPARTMENT: "/mypage/department",
   FAVORITE: "/mypage/favorite",
+  QR: "/qrpage",
 
   RESTAURANT_DETAIL: (restaurantId = ":restaurantId") =>
     `/restaurants/${restaurantId}`, 

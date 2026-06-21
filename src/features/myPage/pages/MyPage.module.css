@@ -1,17 +1,9 @@
 .screen {
-  position: relative;
-
   width: 393px;
-  height: 730px;
-
-  margin: 0 auto;
-
-  background-color: #ffffff;
-
-  overflow: hidden;
-
-  --header-height: 107px;
-  --bottom-nav-height: 73px;
+  height: 702px;
+  background-color: white;
+  position: relative;
+  margin: 40px auto;
 }
 
 .content {
@@ -32,6 +24,12 @@
 }
 
 
+.profile h1 {
+  margin: 0 0 11px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
 .profileSection {
   width: 100%;
 
@@ -43,6 +41,17 @@
 
 .profileSection h1 {
   margin: 0 0 10px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.profile small {
+  font-size: 15px;
+  color: #000;
+  font-weight: 400;
+}
+
 
   font-size: 22px;
   font-weight: 800;

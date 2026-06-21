@@ -1,4 +1,35 @@
-.my-store-list-page {
+.store-list-screen {
+  width: 393px;
+  height: 855px;
+  background-color: #ffffff;
+  position: relative;
+  margin: 0 auto;
+}
+
+.store-list-content {
+  height: calc(100% - 180px);
+  padding: 18px 14px 100px;
+  overflow-y: auto;
+}
+
+.store-list-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 34px;
+}
+
+.store-list-title-row h1 {
+  margin: 0;
+  
+  color: #000;
+ 
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 16px; 
+}
+
+  .my-store-list-page {
   position: absolute;
 
   top: 107px;
