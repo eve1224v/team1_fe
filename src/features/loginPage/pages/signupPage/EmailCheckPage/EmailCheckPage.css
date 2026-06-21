@@ -1,0 +1,12 @@
+.signup-page {
+  width: 393px;
+  height: 852px;
+
+  margin: 0 auto;
+
+  padding: 120px 24px;
+
+  box-sizing: border-box;
+
+  background-color: white;
+}

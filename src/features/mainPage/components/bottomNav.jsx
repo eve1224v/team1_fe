@@ -19,7 +19,7 @@ function BottomNav() {
         <span className="nav-text">홈</span>
       </button>
 
-      <button className="qr-button">
+      <button className="home-qr-button" onClick={() => navigate(ROUTES.QR)}>
         <img src={qrIcon} alt="QR 아이콘" className="qr-icon" />
       </button>
 
