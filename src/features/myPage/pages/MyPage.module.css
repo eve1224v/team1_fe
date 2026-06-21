@@ -7,15 +7,22 @@
 }
 
 .content {
-  height: calc(100% - 60px - 86px);
-  padding: 18px;
+  position: absolute;
+
+  top: 107px;
+  left: 0;
+  right: 0;
+  bottom: 73px;
+
+  width: 100%;
+
+  padding: 25px 23px 16px;
+
+  background-color: #ffffff;
+
   overflow-y: auto;
 }
 
-.profile {
-  padding-bottom: 20px;
-  border-bottom: 1px solid #eeeeee;
-}
 
 .profile h1 {
   margin: 0 0 11px;
@@ -23,11 +30,16 @@
   font-weight: 700;
 }
 
-.profile h1 span {
-  color: #6e232f;
+.profileSection {
+  width: 100%;
+
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+
+  border-bottom: 1px solid #eeeeee;
 }
 
-.profile p {
+.profileSection h1 {
   margin: 0 0 10px;
   font-size: 20px;
   font-weight: 500;
@@ -40,3 +52,56 @@
   font-weight: 400;
 }
 
+
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 1.25;
+
+  color: #111111;
+}
+
+.profileSection h1 span {
+  color: #6e232f;
+}
+
+.profileSection p {
+  margin: 0;
+
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+
+  color: #111111;
+}
+
+.profileSection small {
+  display: block;
+
+  margin-top: 13px;
+
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+
+  color: #111111;
+}
+
+.partnershipSection {
+  width: 100%;
+}
+
+.partnershipSection h2 {
+  margin: 0 0 10px;
+
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 16px;
+
+  color: #111111;
+}
+
+.cardList {
+  display: flex;
+  flex-direction: column;
+  gap: 10.62px;
+}

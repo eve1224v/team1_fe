@@ -1,0 +1,31 @@
+.header {
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  color: #000;
+  font-family: Pretendard;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header h2 {
+  color: #000;
+
+font-family: Pretendard;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.header p {
+  color: #000;
+  font-family: Pretendard;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

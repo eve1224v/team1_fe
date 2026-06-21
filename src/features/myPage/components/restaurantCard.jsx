@@ -1,19 +1,19 @@
 import "./restaurantCard.css";
 
-function RestaurantCard({ name, category, address }) {
+function RestaurantCard({ image, name, category, address }) {
   return (
-    <div className="restaurant-card">
-      <div className="restaurant-image"></div>
+    <article className="restaurant-card">
+      <img src={image} alt={name} className="restaurant-card-image" />
 
-      <div className="restaurant-info">
-        <div className="top-row">
-          <div className="restaurant-name">{name}</div>
-          <div className="restaurant-category">{category}</div>
+      <div className="restaurant-card-info">
+        <div className="restaurant-card-title-row">
+          <h2>{name}</h2>
+          <span>{category}</span>
         </div>
 
-        <div className="restaurant-address">{address}</div>
+        <p>{address}</p>
       </div>
-    </div>
+    </article>
   );
 }
 

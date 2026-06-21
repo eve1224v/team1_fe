@@ -1,0 +1,33 @@
+.button {
+  width: 352px;
+  height: 64px;
+
+  border-radius: 22px;
+
+  text-align: center;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-weight: 700;
+  font-weight: 700;
+  line-height: normal;
+
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #6e232f;
+
+  border: none;
+
+  color: #FFF;  
+}
+
+.secondary {
+  background-color: white;
+
+  border: 1px solid #6e232f;
+
+  color: #6E232F;
+
+}
+
