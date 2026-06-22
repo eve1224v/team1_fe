@@ -1,14 +1,14 @@
-import "./bottomNav.css";
+import "./qrBottomNav.css";
 
 import { useNavigate } from "react-router-dom";
 
 import { ROUTES } from "../../../router/routes.constant";
 
-import homeIcon from "../../../assets/homeIcon.svg";
+import homeIcon from "../../../assets/homeDefault.svg";
 import mypageIcon from "../../../assets/mypageIcon.svg";
-import qrIcon from "../../../assets/qrIcon.svg";
+import qrIcon from "../../../assets/qrIcon2.svg";
 
-function BottomNav() {
+function QrBottomNav() {
   const navigate = useNavigate();
 
   return (
@@ -19,7 +19,7 @@ function BottomNav() {
         <span className="nav-text">홈</span>
       </button>
 
-      <button className="home-qr-button" onClick={() => navigate(ROUTES.QR)}>
+      <button className="qr-button" onClick={() => navigate(ROUTES.QR)}>
         <img src={qrIcon} alt="QR 아이콘" className="qr-icon" />
       </button>
 
@@ -32,4 +32,4 @@ function BottomNav() {
   );
 }
 
-export default BottomNav;
+export default QrBottomNav;

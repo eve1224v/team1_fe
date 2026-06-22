@@ -1,0 +1,91 @@
+.screen {
+  width: 100%;
+  max-width: 393px;
+  min-height: 100vh;
+  background-color: white;
+  position: relative;
+  margin: 0px auto;
+}
+
+.content {
+  position: absolute;
+
+  top: 107px;
+  left: 0;
+  right: 0;
+  bottom: 73px;
+
+  width: 100%;
+
+  padding: 38px 23px 16px;
+
+  background-color: #ffffff;
+
+  overflow-y: auto;
+}
+
+
+
+.profileSection {
+  width: 100%;
+
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+
+  border-bottom: 1px solid #eeeeee;
+}
+
+.profileSection h1 {
+  margin: 0 0 16px;
+  font-family: Pretendard;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+
+.profileSection h1 span {
+  color: #6e232f;
+}
+
+.profileSection p {
+  margin: 0;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+
+  color: #111111;
+}
+
+.profileSection small {
+  display: block;
+  font-family: Pretendard;
+  margin-top: 12px;
+
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+
+  color: #111111;
+}
+
+.partnershipSection {
+  width: 100%;
+}
+
+.partnershipSection h2 {
+  margin: 29px 0 19px;
+
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 16px;
+
+  color: #111111;
+}
+
+.cardList {
+  display: flex;
+  flex-direction: column;
+  gap: 10.62px;
+}

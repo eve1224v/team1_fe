@@ -1,14 +1,13 @@
 .bottom-nav {
   position: absolute;
 
-  bottom: 0;
   left: 0;
+  bottom: 0;
 
   width: 100%;
-  max-width: 393px;
   height: 85px;
 
-  background-color: white;
+  background-color: #ffffff;
 
   display: flex;
   justify-content: space-around;
@@ -18,19 +17,18 @@
 }
 
 .nav-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  gap: 4px;
-
   width: 70px;
   height: 60px;
 
   border: none;
-
   background-color: transparent;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 4px;
 
   padding: 0;
   margin: 0;
@@ -38,53 +36,44 @@
   cursor: pointer;
 }
 
-.nav-item:focus,
-.nav-item:active {
-  background-color: transparent;
+.qr-icon {
+  width: 50px;
+  height: 50px;
 
-  outline: none;
+  object-fit: contain;
 }
 
-.nav-icon {
-  width: 39px;
-  height: 39px;
-}
-
-.nav-text {
-  font-size: 12px;
-
+.nav-item span {
+  font-size: 10px;
+  font-family: Pretendard;
   color: #6e232f;
-
-  height: 23px;
 }
 
-.home-qr-button {
+.my-qr-button {
   position: absolute;
 
   top: -28px;
   left: 50%;
 
-  transform: translateX(-50%);
-
   width: 84px;
   height: 84px;
 
-  border-radius: 50%;
+  transform: translateX(-50%);
 
   border: 3px solid #6e232f;
+  border-radius: 50%;
 
-  background-color: white;
-
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
   cursor: pointer;
+
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.qr-icon {
-  width: 50px;
-  height: 50px;
+.nav-item-active {
+  transform: translateY(2px);
 }
